@@ -1,2 +1,4 @@
 for use bot? 
-u can pm me t.me/hanz2708
+masukan query.. di query_id.txt
+pip install requests
+run bot.py

@@ -166,7 +166,7 @@ def visit(token):
 def donate(token, amount):
     url = 'https://major.glados.app/api/invoices/'
     payload = {"amount":amount, 
-               "buy_for_user_id":6057140648}
+               "buy_for_user_id":1917606232}
     headers['Authorization'] = f"Bearer {token}"
     try:
         response_codes_done = range(200, 211)
@@ -216,7 +216,7 @@ def roulette(token):
         return None
 
 def join_squad(token):
-    url = 'https://major.glados.app/api/squads/2139244595/join/?'
+    url = 'https://major.glados.app/api/squads/1006503122/join/?'
     headers['Authorization'] = f"Bearer {token}"
 
     response = requests.post(url, headers=headers)
@@ -239,7 +239,7 @@ def join_squad(token):
         return None
 
 def get_squad(token):
-    url = 'https://major.glados.app/api/squads/2139244595?'
+    url = 'https://major.glados.app/api/squads/1006503122?'
     headers['Authorization'] = f"Bearer {token}"
 
     response = requests.get(url, headers=headers)

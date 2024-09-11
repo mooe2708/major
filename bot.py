@@ -545,14 +545,14 @@ def start():
         
                     MAJOR BOT
               
-        select this one :
-        1. claim daily
-        2. clear quest game  
+        gaskeun?? masseh?
+        ketik y enter
+          
           
           """)
     selector = input("Select the one  : ").strip().lower()
 
-    if selector == '1':
+    if selector == 'y':
         main()
     elif selector == '2':
         quest_main()

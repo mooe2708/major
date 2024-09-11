@@ -544,7 +544,6 @@ def start():
     print(r"""
         
                     MAJOR BOT
-    find new airdrop & bot here: t.me/signalrektcrypto
               
         select this one :
         1. claim daily

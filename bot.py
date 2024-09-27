@@ -541,22 +541,26 @@ def quest_main():
             durev_combo(token, payload)
 
 def start():
-    print(r"""
-        
-                    MAJOR BOT
-              
-        gaskeun?? masseh?
-        ketik y enter
-          
+    print(r"""      
+                   _              _           _   
+                  (_)            | |         | |  
+   _ __ ___   __ _ _  ___  _ __  | |__   ___ | |_ 
+  | '_ ` _ \ / _` | |/ _ \| '__| | '_ \ / _ \| __|
+  | | | | | | (_| | | (_) | |    | |_) | (_) | |_ 
+  |_| |_| |_|\__,_| |\___/|_|    |_.__/ \___/ \__|
+                 _/ |                             
+                |__/                              
+
+#by: signalrekt 
+ketik y ennter untuk gaspol...
+ketik n jika ingin logot...
           
           """)
     selector = input("Select the one  : ").strip().lower()
 
     if selector == 'y':
         main()
-    elif selector == '2':
-        quest_main()
-    else:
+    elif selector == 'n':
         exit()
 
 if __name__ == "__main__":
